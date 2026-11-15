@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samskaras - Iyer and Iyengar Rituals, Hyderabad</title>
+<meta name="description" content="Samskaras: Iyer and Iyengar rituals, ceremonies, homams and srardham carried out in Hyderabad. Call to book.">
+<style>
+  :root {
+    --red: #b8202e;
+    --red-dark: #8f1722;
+    --ink: #2b2b2b;
+    --muted: #666;
+    --bg: #f3f3f3;
+    --card: #fff;
+    --row: #f0f0f0;
+    --line: #dcdcdc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.5 "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  a { color: var(--red); }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+
+  header { background: var(--card); border-bottom: 4px solid var(--red); }
+  header .wrap { padding: 28px 16px 24px; text-align: center; }
+  header h1 { margin: 0; font-size: 2.4rem; letter-spacing: .02em; color: var(--red); }
+  header p { margin: 6px 0 0; color: var(--muted); }
+  .badge {
+    display: inline-block; margin-top: 14px; padding: 4px 14px;
+    border: 1px solid var(--red); color: var(--red); border-radius: 99px; font-size: .9rem;
+  }
+
+  .lede { text-align: center; padding: 28px 0 8px; }
+  .lede h2 { margin: 0 0 8px; font-size: 1.5rem; }
+  .lede p { margin: 0 auto; max-width: 560px; color: var(--muted); }
+
+  .panel { background: var(--card); border: 1px solid var(--line); box-shadow: 0 1px 4px rgba(0,0,0,.08); padding: 16px; margin: 20px 0; }
+  .panel > h2 { margin: 0 0 12px; padding-bottom: 10px; border-bottom: 1px solid var(--line); font-size: 1.35rem; font-weight: 500; }
+
+  details.cat > summary {
+    list-style: none; cursor: pointer; padding: 14px 16px; font-size: 1.1rem;
+    display: flex; align-items: center; gap: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  details.cat > summary::-webkit-details-marker { display: none; }
+  details.cat > summary::before {
+    content: ""; width: 8px; height: 8px; flex: none;
+    border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+    transform: rotate(-45deg); transition: transform .15s;
+  }
+  details.cat[open] > summary { background: var(--red); color: #fff; border-bottom-color: var(--red); }
+  details.cat[open] > summary::before { transform: rotate(45deg); }
+  details.cat ul { list-style: none; margin: 0; padding: 0 0 0 12px; }
+  details.cat li {
+    background: var(--row); border-bottom: 1px solid #fff; padding: 13px 16px 13px 32px;
+    color: var(--red); font-weight: 500; position: relative;
+  }
+  details.cat li::before {
+    content: ""; position: absolute; left: 14px; top: 50%; width: 6px; height: 6px;
+    border-right: 2px solid var(--red); border-top: 2px solid var(--red);
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  .contacts { display: grid; gap: 14px; }
+  @media (min-width: 620px) { .contacts { grid-template-columns: 1fr 1fr; } }
+  .person { border: 1px solid var(--line); padding: 16px; text-align: center; }
+  .person h3 { margin: 0 0 4px; font-size: 1.15rem; }
+  .person .num { font-size: 1.3rem; font-weight: 600; margin: 4px 0 12px; }
+  .btns { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 10px 18px; border-radius: 4px; text-decoration: none;
+    font-weight: 600; font-size: .95rem;
+  }
+  .btn.call { background: var(--red); color: #fff; }
+  .btn.call:hover { background: var(--red-dark); }
+  .btn.wa { border: 1px solid var(--red); color: var(--red); background: #fff; }
+
+  footer { text-align: center; color: var(--muted); font-size: .9rem; padding: 8px 0 40px; }
+
+  .banner { width: 100%; max-height: 340px; overflow: hidden; }
+  .banner img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; display: block; }
+</style>
+</head>
+<body>
+
+<div class="banner">
+  <img src="deets/trimurti-banner.jpeg" alt="Shiva, Vishnu and Brahma">
+</div>
+
+<header>
+  <div class="wrap">
+    <h1>Samskaras</h1>
+    <p>Iyer and Iyengar Rituals</p>
+    <span class="badge">Hyderabad</span>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="lede">
+    <h2>Rituals carried out with care, in Hyderabad</h2>
+    <p>The ceremonies, homams and ancestral rites listed below are performed in the Iyer and Iyengar tradition. Call to discuss your requirement and fix a date.</p>
+  </section>
+
+  <section class="panel" id="services">
+    <h2>Services We Carry Out</h2>
+
+    <details class="cat" open>
+      <summary>Ceremonies</summary>
+      <ul>
+        <li>Aksharabhyasam</li>
+        <li>Annaprasana</li>
+        <li>Bhima Ratha Shanthi (70th Birthday)</li>
+        <li>Fix Your Muhurth Dates</li>
+        <li>Griha Pravesham</li>
+        <li>Karna Vedha (Ear Piercing)</li>
+        <li>Marriage</li>
+        <li>Naamakaranam</li>
+        <li>Nichayathartham (Engagement)</li>
+        <li>Online Avani Avittam - Upakarma</li>
+        <li>Pandakkal Pooja</li>
+        <li>Pumsavanam</li>
+        <li>Ritu Shanthi (Age Attending Ceremony)</li>
+        <li>Sashtiapthapoorthi (60th Birthday)</li>
+        <li>Sathabhishekam (80th Birthday Pooja)</li>
+        <li>Seemantham</li>
+        <li>Upanayanam</li>
+      </ul>
+    </details>
+
+    <details class="cat">
+      <summary>Homam</summary>
+      <ul>
+        <li>Ayusha Homam</li>
+        <li>Chandi Homam</li>
+        <li>Dhanvantari Homam</li>
+        <li>Ganapathi Homam</li>
+        <li>Gayatri Homam (Sukrutha Homam)</li>
+        <li>Hayagreeva Homam</li>
+        <li>Kala Bhairava Homam</li>
+        <li>Karthaveeryarjuna Homam</li>
+        <li>Lakshmi Kubera Homam</li>
+        <li>Lakshmi Narasimha Homam</li>
+        <li>Lakshmi Narayana Homam</li>
+        <li>Mrityunjaya Homam</li>
+        <li>Navagraha Homam</li>
+        <li>Pratyangira Devi Homam</li>
+        <li>Raja Matangi Homam</li>
+        <li>Rudra Homam</li>
+        <li>Saraswati Homam</li>
+        <li>Shoolini Durga Homam</li>
+        <li>Sri Sukta Homam</li>
+        <li>Sudarsana Homam</li>
+      </ul>
+    </details>
+
+    <details class="cat">
+      <summary>Srardham and Ancestral Rites</summary>
+      <ul>
+        <li>Annadhanam for Brahmins</li>
+        <li>Hiranya Srardham</li>
+        <li>Karma Karyam (Death Rituals)</li>
+        <li>Mahalaya Srardham (For Brahmins Only)</li>
+        <li>Mahalaya Thithi (Devasam)</li>
+        <li>Sankalpa Srardham</li>
+        <li>Srardham</li>
+        <li>Tharpanam</li>
+        <li>Thithi (Devasam)</li>
+        <li>Varusha Abdigam - First Year</li>
+      </ul>
+    </details>
+  </section>
+
+  <section class="panel" id="contact">
+    <h2>Contact</h2>
+    <div class="contacts">
+      <div class="person">
+        <h3>Purushotaman S P</h3>
+        <div class="num">8056205163</div>
+        <div class="btns">
+          <a class="btn call" href="tel:+918056205163">Call</a>
+          <a class="btn wa" href="https://wa.me/918056205163">WhatsApp</a>
+        </div>
+      </div>
+      <div class="person">
+        <h3>Santosh Vadyar</h3>
+        <div class="num">9949428898</div>
+        <div class="btns">
+          <a class="btn call" href="tel:+919949428898">Call</a>
+          <a class="btn wa" href="https://wa.me/919949428898">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>Samskaras &middot; Iyer and Iyengar Rituals &middot; Hyderabad</footer>
+
+</body>
+</html>
